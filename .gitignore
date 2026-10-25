@@ -10,7 +10,7 @@
 CLAUDE.md
 claude-flow.config.json
 .coverage
-# Ruflo local secrets and runtime data
+# local secrets and runtime data
 .env
 .env.local
 .env.*.local
