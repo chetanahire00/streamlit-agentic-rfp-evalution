@@ -2,7 +2,14 @@
 .claude-flow/
 .swarm/
 .claude/memory.db
-
+.claude/
+.agents/
+.streamlit/*
+!.streamlit/config.toml
+.cloudflow/
+CLAUDE.md
+claude-flow.config.json
+.coverage
 # Ruflo local secrets and runtime data
 .env
 .env.local
@@ -19,7 +26,6 @@ __pycache__/
 .ruff_cache/
 .coverage
 htmlcov/
-
 # App runtime data (SQLite database) and secrets
 data/
 *.db
