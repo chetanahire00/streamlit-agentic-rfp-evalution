@@ -1,0 +1,4 @@
+# Ruflo / claude-flow local state
+.claude-flow/
+.swarm/
+.claude/memory.db
