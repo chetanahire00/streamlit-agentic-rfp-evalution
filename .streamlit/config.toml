@@ -1,0 +1,35 @@
+# Theme from the UI UX Pro Max design system "RFP Evaluator":
+# Minimalism & Swiss style · navy/slate corporate palette · accent #0369A1 ·
+# Fira Sans (UI) + Fira Code (IDs, numbers). Text/background pairs meet WCAG AA.
+
+[theme]
+base = "light"
+primaryColor = "#0369A1"            # accent / CTA (5.9:1 on white)
+backgroundColor = "#F8FAFC"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#0F172A"               # 17.1:1 on #F8FAFC
+linkColor = "#0369A1"
+borderColor = "#E2E8F0"
+dataframeHeaderBackgroundColor = "#E8ECF1"
+baseRadius = "8px"
+baseFontSize = 15
+showSidebarBorder = true
+font = "Fira Sans:https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&display=swap, sans-serif"
+codeFont = "Fira Code:https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap, monospace"
+chartCategoricalColors = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300", "#6250d6", "#e34948"]
+
+[theme.sidebar]
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F8FAFC"
+
+[server]
+# Streamlit's own cap is set above the app's 10 MB limit so the app can show
+# its friendlier, specific message for oversized PDFs.
+maxUploadSize = 25
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+showErrorDetails = "none"

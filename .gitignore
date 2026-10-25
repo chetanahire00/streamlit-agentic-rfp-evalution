@@ -10,3 +10,17 @@
 .claude-flow/data/
 .claude-flow/logs/
 .claude-flow/sessions/
+
+# Python / tooling
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# App runtime data (SQLite database) and secrets
+data/
+*.db
+.streamlit/secrets.toml

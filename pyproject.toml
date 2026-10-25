@@ -1,0 +1,29 @@
+[project]
+name = "agentic-rfp-evaluator"
+version = "1.0.0"
+description = "Agentic RFP evaluation and deterministic supplier ranking (Streamlit + SQLite + LLM)"
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+extend-exclude = [".claude", ".agents", ".claude-flow", ".swarm", "sample_data", "data"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM", "RUF", "BLE", "A"]
+ignore = [
+    "RUF001",  # ambiguous unicode in strings: intentional (–, ×, …, ✓) in UI copy
+    "RUF002",  # same, in docstrings
+    "RUF003",  # same, in comments
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["B017"]
+
+[tool.coverage.run]
+source = ["src"]
+branch = false
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 85

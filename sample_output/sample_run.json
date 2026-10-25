@@ -1,0 +1,625 @@
+{
+  "created_at": "2026-10-25T07:05:34+00:00",
+  "criteria_snapshot": [
+    {
+      "criterion_id": 1,
+      "description": "Architecture, integrations, scalability, technical fit",
+      "is_active": true,
+      "max_score": 10.0,
+      "name": "Technical Capability",
+      "weight": 30.0
+    },
+    {
+      "criterion_id": 2,
+      "description": "Timeline, milestones, staffing, risk plan",
+      "is_active": true,
+      "max_score": 10.0,
+      "name": "Implementation Plan",
+      "weight": 20.0
+    },
+    {
+      "criterion_id": 3,
+      "description": "Pricing clarity, total cost, assumptions",
+      "is_active": true,
+      "max_score": 10.0,
+      "name": "Commercial Value",
+      "weight": 20.0
+    },
+    {
+      "criterion_id": 4,
+      "description": "Controls, certifications, privacy, auditability",
+      "is_active": true,
+      "max_score": 10.0,
+      "name": "Security & Compliance",
+      "weight": 20.0
+    },
+    {
+      "criterion_id": 5,
+      "description": "Support model, similar projects, references",
+      "is_active": true,
+      "max_score": 10.0,
+      "name": "Support & Experience",
+      "weight": 10.0
+    }
+  ],
+  "export_format": "rfp-evaluator/v1",
+  "model": "heuristic-v1",
+  "prompt_version": "v1.0",
+  "provider": "demo",
+  "ranking": {
+    "benchmarks": {
+      "1": 10.0,
+      "2": 10.0,
+      "3": 9.0,
+      "4": 10.0,
+      "5": 10.0
+    },
+    "rankings": [
+      {
+        "absolute_score": 95.5,
+        "experience_rating": 4.0,
+        "final_rank": 1,
+        "metrics": [
+          {
+            "benchmark": 10.0,
+            "criterion_id": 1,
+            "criterion_name": "Technical Capability",
+            "gap": 0.0,
+            "max_score": 10.0,
+            "relative_pct": 100.0,
+            "score": 10.0,
+            "weight": 30.0,
+            "weighted_score": 30.0
+          },
+          {
+            "benchmark": 10.0,
+            "criterion_id": 2,
+            "criterion_name": "Implementation Plan",
+            "gap": -0.5,
+            "max_score": 10.0,
+            "relative_pct": 95.0,
+            "score": 9.5,
+            "weight": 20.0,
+            "weighted_score": 19.0
+          },
+          {
+            "benchmark": 9.0,
+            "criterion_id": 3,
+            "criterion_name": "Commercial Value",
+            "gap": -0.5,
+            "max_score": 10.0,
+            "relative_pct": 94.4444,
+            "score": 8.5,
+            "weight": 20.0,
+            "weighted_score": 17.0
+          },
+          {
+            "benchmark": 10.0,
+            "criterion_id": 4,
+            "criterion_name": "Security & Compliance",
+            "gap": 0.0,
+            "max_score": 10.0,
+            "relative_pct": 100.0,
+            "score": 10.0,
+            "weight": 20.0,
+            "weighted_score": 20.0
+          },
+          {
+            "benchmark": 10.0,
+            "criterion_id": 5,
+            "criterion_name": "Support & Experience",
+            "gap": -0.5,
+            "max_score": 10.0,
+            "relative_pct": 95.0,
+            "score": 9.5,
+            "weight": 10.0,
+            "weighted_score": 9.5
+          }
+        ],
+        "ppi": 97.3889,
+        "submission_date": "2026-09-10",
+        "supplier_name": "Apex Systems"
+      },
+      {
+        "absolute_score": 88.0,
+        "experience_rating": 4.0,
+        "final_rank": 2,
+        "metrics": [
+          {
+            "benchmark": 10.0,
+            "criterion_id": 1,
+            "criterion_name": "Technical Capability",
+            "gap": -2.5,
+            "max_score": 10.0,
+            "relative_pct": 75.0,
+            "score": 7.5,
+            "weight": 30.0,
+            "weighted_score": 22.5
+          },
+          {
+            "benchmark": 10.0,
+            "criterion_id": 2,
+            "criterion_name": "Implementation Plan",
+            "gap": 0.0,
+            "max_score": 10.0,
+            "relative_pct": 100.0,
+            "score": 10.0,
+            "weight": 20.0,
+            "weighted_score": 20.0
+          },
+          {
+            "benchmark": 9.0,
+            "criterion_id": 3,
+            "criterion_name": "Commercial Value",
+            "gap": 0.0,
+            "max_score": 10.0,
+            "relative_pct": 100.0,
+            "score": 9.0,
+            "weight": 20.0,
+            "weighted_score": 18.0
+          },
+          {
+            "benchmark": 10.0,
+            "criterion_id": 4,
+            "criterion_name": "Security & Compliance",
+            "gap": -1.0,
+            "max_score": 10.0,
+            "relative_pct": 90.0,
+            "score": 9.0,
+            "weight": 20.0,
+            "weighted_score": 18.0
+          },
+          {
+            "benchmark": 10.0,
+            "criterion_id": 5,
+            "criterion_name": "Support & Experience",
+            "gap": -0.5,
+            "max_score": 10.0,
+            "relative_pct": 95.0,
+            "score": 9.5,
+            "weight": 10.0,
+            "weighted_score": 9.5
+          }
+        ],
+        "ppi": 90.0,
+        "submission_date": "2026-09-09",
+        "supplier_name": "NexaWorks"
+      },
+      {
+        "absolute_score": 56.5,
+        "experience_rating": 4.5,
+        "final_rank": 3,
+        "metrics": [
+          {
+            "benchmark": 10.0,
+            "criterion_id": 1,
+            "criterion_name": "Technical Capability",
+            "gap": -9.5,
+            "max_score": 10.0,
+            "relative_pct": 5.0,
+            "score": 0.5,
+            "weight": 30.0,
+            "weighted_score": 1.5
+          },
+          {
+            "benchmark": 10.0,
+            "criterion_id": 2,
+            "criterion_name": "Implementation Plan",
+            "gap": -3.0,
+            "max_score": 10.0,
+            "relative_pct": 70.0,
+            "score": 7.0,
+            "weight": 20.0,
+            "weighted_score": 14.0
+          },
+          {
+            "benchmark": 9.0,
+            "criterion_id": 3,
+            "criterion_name": "Commercial Value",
+            "gap": -0.5,
+            "max_score": 10.0,
+            "relative_pct": 94.4444,
+            "score": 8.5,
+            "weight": 20.0,
+            "weighted_score": 17.0
+          },
+          {
+            "benchmark": 10.0,
+            "criterion_id": 4,
+            "criterion_name": "Security & Compliance",
+            "gap": -3.0,
+            "max_score": 10.0,
+            "relative_pct": 70.0,
+            "score": 7.0,
+            "weight": 20.0,
+            "weighted_score": 14.0
+          },
+          {
+            "benchmark": 10.0,
+            "criterion_id": 5,
+            "criterion_name": "Support & Experience",
+            "gap": 0.0,
+            "max_score": 10.0,
+            "relative_pct": 100.0,
+            "score": 10.0,
+            "weight": 10.0,
+            "weighted_score": 10.0
+          }
+        ],
+        "ppi": 58.3889,
+        "submission_date": "2026-09-12",
+        "supplier_name": "Orbit Digital"
+      },
+      {
+        "absolute_score": 55.5,
+        "experience_rating": 2.0,
+        "final_rank": 4,
+        "metrics": [
+          {
+            "benchmark": 10.0,
+            "criterion_id": 1,
+            "criterion_name": "Technical Capability",
+            "gap": -5.0,
+            "max_score": 10.0,
+            "relative_pct": 50.0,
+            "score": 5.0,
+            "weight": 30.0,
+            "weighted_score": 15.0
+          },
+          {
+            "benchmark": 10.0,
+            "criterion_id": 2,
+            "criterion_name": "Implementation Plan",
+            "gap": -2.0,
+            "max_score": 10.0,
+            "relative_pct": 80.0,
+            "score": 8.0,
+            "weight": 20.0,
+            "weighted_score": 16.0
+          },
+          {
+            "benchmark": 9.0,
+            "criterion_id": 3,
+            "criterion_name": "Commercial Value",
+            "gap": 0.0,
+            "max_score": 10.0,
+            "relative_pct": 100.0,
+            "score": 9.0,
+            "weight": 20.0,
+            "weighted_score": 18.0
+          },
+          {
+            "benchmark": 10.0,
+            "criterion_id": 4,
+            "criterion_name": "Security & Compliance",
+            "gap": -10.0,
+            "max_score": 10.0,
+            "relative_pct": 0.0,
+            "score": 0.0,
+            "weight": 20.0,
+            "weighted_score": 0.0
+          },
+          {
+            "benchmark": 10.0,
+            "criterion_id": 5,
+            "criterion_name": "Support & Experience",
+            "gap": -3.5,
+            "max_score": 10.0,
+            "relative_pct": 65.0,
+            "score": 6.5,
+            "weight": 10.0,
+            "weighted_score": 6.5
+          }
+        ],
+        "ppi": 57.5,
+        "submission_date": "2026-09-08",
+        "supplier_name": "BrightPath Tech"
+      }
+    ],
+    "tie_break_explanations": [],
+    "warnings": []
+  },
+  "rfp_run_id": "f4e6fc04-036f-4d46-a350-4d30b82b72c2",
+  "scorecards": [
+    {
+      "char_count": 4536,
+      "criteria": [
+        {
+          "criterion_id": 1,
+          "criterion_name": "Technical Capability",
+          "evidence": "The platform uses a cloud-native microservices architecture deployed on Kubernetes across three availability zones, with an API gateway exposing documented REST and GraphQL APIs.",
+          "evidence_page": 1,
+          "evidence_unverified": false,
+          "justification": "18 relevant statement(s) found. Score reflects the depth of specific, evidenced detail.",
+          "max_score": 10.0,
+          "score": 10.0,
+          "weight": 30.0
+        },
+        {
+          "criterion_id": 2,
+          "criterion_name": "Implementation Plan",
+          "evidence": "Each phase ends with a formal quality gate.",
+          "evidence_page": 1,
+          "evidence_unverified": false,
+          "justification": "13 relevant statement(s) found. Score reflects the depth of specific, evidenced detail.",
+          "max_score": 10.0,
+          "score": 9.5,
+          "weight": 20.0
+        },
+        {
+          "criterion_id": 3,
+          "criterion_name": "Commercial Value",
+          "evidence": "Prices exclude VAT and are fixed for the three-year term.",
+          "evidence_page": 2,
+          "evidence_unverified": false,
+          "justification": "6 relevant statement(s) found. Score reflects the depth of specific, evidenced detail.",
+          "max_score": 10.0,
+          "score": 8.5,
+          "weight": 20.0
+        },
+        {
+          "criterion_id": 4,
+          "criterion_name": "Security & Compliance",
+          "evidence": "All data is encrypted at rest with AES-256 and in transit with TLS 1.3; encryption keys are managed in a hardware security module with quarterly key rotation.",
+          "evidence_page": 2,
+          "evidence_unverified": false,
+          "justification": "11 relevant statement(s) found. Score reflects the depth of specific, evidenced detail.",
+          "max_score": 10.0,
+          "score": 10.0,
+          "weight": 20.0
+        },
+        {
+          "criterion_id": 5,
+          "criterion_name": "Support & Experience",
+          "evidence": "Support is available 24x7 for priority 1 incidents with a one-hour response target; standard requests are handled during UK business hours.",
+          "evidence_page": 2,
+          "evidence_unverified": false,
+          "justification": "11 relevant statement(s) found. Score reflects the depth of specific, evidenced detail.",
+          "max_score": 10.0,
+          "score": 9.5,
+          "weight": 10.0
+        }
+      ],
+      "experience_rating": 4.0,
+      "extraction_method": "pymupdf",
+      "file_sha256": "22b2f73c1155e00ca5047b8ec71b2c3e610c99892689db94a5fdbc6bc1ec98f2",
+      "filename": "apex_systems.pdf",
+      "from_cache": false,
+      "overall_summary": "Deterministic demo evaluation (keyword and evidence heuristics, not an AI model). Strongest area: Security & Compliance; weakest area: Commercial Value.",
+      "page_count": 2,
+      "risks": [],
+      "status": "OK",
+      "submission_date": "2026-09-10",
+      "supplier_name": "Apex Systems",
+      "warnings": []
+    },
+    {
+      "char_count": 3886,
+      "criteria": [
+        {
+          "criterion_id": 1,
+          "criterion_name": "Technical Capability",
+          "evidence": "Standard REST APIs and a certified connector for Microsoft Dynamics finance support integration; the solution scales to several thousand users.",
+          "evidence_page": 1,
+          "evidence_unverified": false,
+          "justification": "6 relevant statement(s) found. Score reflects the depth of specific, evidenced detail.",
+          "max_score": 10.0,
+          "score": 7.5,
+          "weight": 30.0
+        },
+        {
+          "criterion_id": 2,
+          "criterion_name": "Implementation Plan",
+          "evidence": "A dedicated implementation team of seven named specialists is assigned for the full programme, with staffing levels shown in the team table below.",
+          "evidence_page": 1,
+          "evidence_unverified": false,
+          "justification": "21 relevant statement(s) found. Score reflects the depth of specific, evidenced detail.",
+          "max_score": 10.0,
+          "score": 10.0,
+          "weight": 20.0
+        },
+        {
+          "criterion_id": 3,
+          "criterion_name": "Commercial Value",
+          "evidence": "Fixed price for the scope described; prices exclude VAT.",
+          "evidence_page": 2,
+          "evidence_unverified": false,
+          "justification": "6 relevant statement(s) found. Score reflects the depth of specific, evidenced detail.",
+          "max_score": 10.0,
+          "score": 9.0,
+          "weight": 20.0
+        },
+        {
+          "criterion_id": 4,
+          "criterion_name": "Security & Compliance",
+          "evidence": "Data is encrypted at rest and in transit, hosted in UK data centres, and processed under a UK GDPR compliant data processing agreement.",
+          "evidence_page": 2,
+          "evidence_unverified": false,
+          "justification": "7 relevant statement(s) found. Score reflects the depth of specific, evidenced detail.",
+          "max_score": 10.0,
+          "score": 9.0,
+          "weight": 20.0
+        },
+        {
+          "criterion_id": 5,
+          "criterion_name": "Support & Experience",
+          "evidence": "A UK-based service desk provides 24x7 support with a 15-minute response for priority 1 incidents and a 4-hour resolution target, backed by service credits.",
+          "evidence_page": 2,
+          "evidence_unverified": false,
+          "justification": "12 relevant statement(s) found. Score reflects the depth of specific, evidenced detail.",
+          "max_score": 10.0,
+          "score": 9.5,
+          "weight": 10.0
+        }
+      ],
+      "experience_rating": 4.0,
+      "extraction_method": "pymupdf",
+      "file_sha256": "7fbddf4f34a5a5cd283d33fb81b80251eb90008491e27cb2d6311ed1f092c139",
+      "filename": "nexaworks.pdf",
+      "from_cache": false,
+      "overall_summary": "Deterministic demo evaluation (keyword and evidence heuristics, not an AI model). Strongest area: Implementation Plan; weakest area: Technical Capability.",
+      "page_count": 2,
+      "risks": [],
+      "status": "OK",
+      "submission_date": "2026-09-09",
+      "supplier_name": "NexaWorks",
+      "warnings": []
+    },
+    {
+      "char_count": 2994,
+      "criteria": [
+        {
+          "criterion_id": 1,
+          "criterion_name": "Technical Capability",
+          "evidence": "Total three-year cost (excluding integration)",
+          "evidence_page": 1,
+          "evidence_unverified": false,
+          "justification": "6 relevant statement(s) found, 3 of them vague or deferred. Score reflects the depth of specific, evidenced detail.",
+          "max_score": 10.0,
+          "score": 0.5,
+          "weight": 30.0
+        },
+        {
+          "criterion_id": 2,
+          "criterion_name": "Implementation Plan",
+          "evidence": "A named account manager is assigned.",
+          "evidence_page": 2,
+          "evidence_unverified": false,
+          "justification": "6 relevant statement(s) found. Score reflects the depth of specific, evidenced detail.",
+          "max_score": 10.0,
+          "score": 7.0,
+          "weight": 20.0
+        },
+        {
+          "criterion_id": 3,
+          "criterion_name": "Commercial Value",
+          "evidence": "Prices exclude VAT; travel is charged at cost.",
+          "evidence_page": 1,
+          "evidence_unverified": false,
+          "justification": "6 relevant statement(s) found. Score reflects the depth of specific, evidenced detail.",
+          "max_score": 10.0,
+          "score": 8.5,
+          "weight": 20.0
+        },
+        {
+          "criterion_id": 4,
+          "criterion_name": "Security & Compliance",
+          "evidence": "Orbit Digital is ISO 27001 certified and compliant with UK GDPR.",
+          "evidence_page": 2,
+          "evidence_unverified": false,
+          "justification": "3 relevant statement(s) found. Score reflects the depth of specific, evidenced detail.",
+          "max_score": 10.0,
+          "score": 7.0,
+          "weight": 20.0
+        },
+        {
+          "criterion_id": 5,
+          "criterion_name": "Support & Experience",
+          "evidence": "We have won three national public sector technology awards for procurement projects, and similar projects of this size are routinely completed within budget.",
+          "evidence_page": 2,
+          "evidence_unverified": false,
+          "justification": "14 relevant statement(s) found. Score reflects the depth of specific, evidenced detail.",
+          "max_score": 10.0,
+          "score": 10.0,
+          "weight": 10.0
+        }
+      ],
+      "experience_rating": 4.5,
+      "extraction_method": "pymupdf",
+      "file_sha256": "3626896811f824cc9ddc4936ccc1907994a16159a7513c93986623745658a218",
+      "filename": "orbit_digital.pdf",
+      "from_cache": false,
+      "overall_summary": "Deterministic demo evaluation (keyword and evidence heuristics, not an AI model). Strongest area: Support & Experience; weakest area: Technical Capability.",
+      "page_count": 2,
+      "risks": [
+        "Integrations will be scoped during discovery.",
+        "We anticipate connecting to finance systems as needed, subject to further analysis of the Council's landscape.",
+        "Details of the integration approach are to be confirmed once requirements are clearer.",
+        "A detailed plan will be produced after contract award."
+      ],
+      "status": "OK",
+      "submission_date": "2026-09-12",
+      "supplier_name": "Orbit Digital",
+      "warnings": []
+    },
+    {
+      "char_count": 2610,
+      "criteria": [
+        {
+          "criterion_id": 1,
+          "criterion_name": "Technical Capability",
+          "evidence": "A REST API and CSV import/export are available for integration with finance systems.",
+          "evidence_page": 1,
+          "evidence_unverified": false,
+          "justification": "2 relevant statement(s) found. Score reflects the depth of specific, evidenced detail.",
+          "max_score": 10.0,
+          "score": 5.0,
+          "weight": 30.0
+        },
+        {
+          "criterion_id": 2,
+          "criterion_name": "Implementation Plan",
+          "evidence": "We offer the most affordable route to a modern procurement platform and can be live in just ten weeks.",
+          "evidence_page": 1,
+          "evidence_unverified": false,
+          "justification": "9 relevant statement(s) found. Score reflects the depth of specific, evidenced detail.",
+          "max_score": 10.0,
+          "score": 8.0,
+          "weight": 20.0
+        },
+        {
+          "criterion_id": 3,
+          "criterion_name": "Commercial Value",
+          "evidence": "The total cost covers unlimited workflows and up to 500 named users.",
+          "evidence_page": 1,
+          "evidence_unverified": false,
+          "justification": "7 relevant statement(s) found. Score reflects the depth of specific, evidenced detail.",
+          "max_score": 10.0,
+          "score": 9.0,
+          "weight": 20.0
+        },
+        {
+          "criterion_id": 4,
+          "criterion_name": "Security & Compliance",
+          "evidence": "",
+          "evidence_page": null,
+          "evidence_unverified": false,
+          "justification": "Not addressed in proposal: no specific statements found for this criterion.",
+          "max_score": 10.0,
+          "score": 0.0,
+          "weight": 20.0
+        },
+        {
+          "criterion_id": 5,
+          "criterion_name": "Support & Experience",
+          "evidence": "Email support is provided during business hours, Monday to Friday, with a next-business-day response target.",
+          "evidence_page": 2,
+          "evidence_unverified": false,
+          "justification": "9 relevant statement(s) found, 1 of them vague or deferred. Score reflects the depth of specific, evidenced detail.",
+          "max_score": 10.0,
+          "score": 6.5,
+          "weight": 10.0
+        }
+      ],
+      "experience_rating": 2.0,
+      "extraction_method": "pymupdf",
+      "file_sha256": "370a82140700e9e35ed8bd0dc6d044fd7384c59c53726c5c53ecdaaea12a968a",
+      "filename": "brightpath_tech.pdf",
+      "from_cache": false,
+      "overall_summary": "Deterministic demo evaluation (keyword and evidence heuristics, not an AI model). Strongest area: Commercial Value; weakest area: Security & Compliance.",
+      "page_count": 2,
+      "risks": [
+        "BrightPath Tech | Response to HCC-RFP-2026-014 | Fictional sample data Page 2 BrightPath follows industry best practice for security.",
+        "We are working towards ISO 27001 certification, which is planned for 2027.",
+        "Detailed security documentation is available on request after contract award.",
+        "Data protection responsibilities will be agreed during onboarding."
+      ],
+      "status": "OK",
+      "submission_date": "2026-09-08",
+      "supplier_name": "BrightPath Tech",
+      "warnings": []
+    }
+  ],
+  "status": "COMPLETED",
+  "warnings": []
+}

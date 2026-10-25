@@ -1,0 +1,15 @@
+# Runtime dependencies (pinned; tested with Python 3.11 on 2026-10-25).
+streamlit==1.66.1
+pydantic==2.14.1
+PyYAML==6.0.3
+pandas==3.1.0
+plotly==7.1.0
+pymupdf==2.0
+pypdf==6.21.2
+rapidfuzz==3.14.6
+reportlab==5.1.0
+openai==3.37.0
+anthropic==2.3.0
+google-genai==2.33.0
+groq==1.7.0
+langgraph==1.2.17

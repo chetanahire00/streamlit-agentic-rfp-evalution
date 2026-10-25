@@ -1,0 +1,76 @@
+# LLM provider catalogue shown in the sidebar.
+#
+# Model IDs were checked against each provider's official model list on
+# 2026-10-25:
+#   OpenAI     https://developers.openai.com/api/docs/models
+#   Anthropic  https://platform.claude.com/docs/en/about-claude/models/overview
+#   Gemini     https://ai.google.dev/gemini-api/docs/models
+#   Groq       https://console.groq.com/docs/models
+#
+# supports_temperature: whether the model accepts a sampling temperature.
+#   Anthropic removed sampling parameters from the Messages API on 2026-10-21 and
+#   OpenAI reasoning models reject them, so the adapter omits temperature there.
+#   Reproducibility then comes from the LLM result cache.
+# secret_name: key looked up in st.secrets / environment when the sidebar input is empty.
+
+providers:
+  openai:
+    label: OpenAI
+    secret_name: OPENAI_API_KEY
+    supports_temperature: false
+    models:
+      - id: gpt-6.1-sol
+        label: GPT-6.1 Sol (balanced)
+      - id: gpt-6-astra
+        label: GPT-6 Astra (most capable)
+      - id: gpt-6-luna
+        label: GPT-6 Luna (fast, low cost)
+
+  anthropic:
+    label: Anthropic (Claude)
+    secret_name: ANTHROPIC_API_KEY
+    supports_temperature: false
+    models:
+      - id: claude-opus-5-5
+        label: Claude Opus 5.5
+      - id: claude-sonnet-5-5
+        label: Claude Sonnet 5.5
+      - id: claude-haiku-5-5
+        label: Claude Haiku 5.5
+      - id: claude-fable-5-1
+        label: Claude Fable 5.1
+
+  gemini:
+    label: Google Gemini
+    secret_name: GEMINI_API_KEY
+    supports_temperature: true
+    models:
+      - id: gemini-3.8-flash
+        label: Gemini 3.8 Flash
+      - id: gemini-4-argon
+        label: Gemini 4 Argon (Pro tier)
+      - id: gemini-3.5-flash-lite
+        label: Gemini 3.5 Flash-Lite
+
+  groq:
+    label: Groq
+    secret_name: GROQ_API_KEY
+    supports_temperature: true
+    models:
+      - id: llama-3.3-70b-versatile
+        label: Llama 3.3 70B Versatile
+      - id: openai/gpt-oss-120b
+        label: GPT-OSS 120B
+      - id: openai/gpt-oss-20b
+        label: GPT-OSS 20B
+      - id: llama-3.1-8b-instant
+        label: Llama 3.1 8B Instant
+
+  demo:
+    label: Demo (offline, no key)
+    secret_name: null
+    requires_key: false
+    supports_temperature: false
+    models:
+      - id: heuristic-v1
+        label: Deterministic keyword scorer
